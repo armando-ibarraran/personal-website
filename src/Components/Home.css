@@ -1,18 +1,18 @@
-header {
+article {
     padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.header-top {
+.home-top {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
 }
 
-.header-portrait{
+.home-portrait{
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -20,15 +20,15 @@ header {
     border: 2px solid #333;
 }
 
-.header-name{
+.home-name{
     margin-left: 100px;
     font-family: Boldonse;
-    max-width: 400px; /* Adjust based on your layout */
+    max-width: 300px; /* Adjust based on your layout */
     text-align: center;
     word-wrap: break-word; /* Ensures breaking at spaces */
 }
 
-.header-description{
+.home-description{
     text-align: center;
     font-size: 25px;
     font-family: Poppins;
@@ -36,10 +36,17 @@ header {
     width: 1000px;
 }
 
-.header-divider {
+.home-divider {
     width: 80%; /* Adjust width */
     margin: 100px auto; /* Centering */
     border: none;
     height: 2px;
     background-color: rgba(0, 0, 0, 0.3); /* Subtle color */
+}
+
+.home-nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 200px; /* Adds spacing between buttons */
+    margin: 0px;
 }
