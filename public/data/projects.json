@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Jumpin' - A Fast-Paced Mobile Arcade Game 🚀🎮",
+    "description": "Jumpin' is a fast-paced mobile arcade game developed in Unity with C#, where players control a bouncing ball to dodge incoming squares. If the ball touches an obstacle, the game is over. With simple tap controls and addictive gameplay, JumpBall challenges players' reflexes in an endless run of precision and timing.",
+    "media": [
+      { "type": "image", "src": "images/project1-1.jpg" },
+      { "type": "image", "src": "images/project1-2.jpg" },
+      { "type": "image", "src": "images/project1-3.jpg" },
+      { "type": "image", "src": "images/project1-4.jpg" },
+      { "type": "image", "src": "images/project1-5.jpg" },
+      { "type": "video", "src": "videos/project1-demo1.mp4" }
+    ]
+  },
+  {
+    "title": "Dual Shot – A Competitive Two-Player Shooter 🎯",
+    "description": "Dual Shot is atwo-player arcade shooter, developed in Unity with C#, where players control cannons on opposite sides of the screen and compete to destroy obstacles and each other.",
+    "media": [
+      { "type": "image", "src": "images/project2-1.jpg" },
+      { "type": "image", "src": "images/project2-2.jpg" },
+      { "type": "image", "src": "images/project2-3.jpg" },
+      { "type": "image", "src": "images/project2-4.jpg" }
+    ]
+  },
+  {
+    "title": "Volleyball Scoreboard – A Real-Time Sports Score Tracker 🏐📊",
+    "description": "The Volleyball Scoreboard app is a real-time sports tracking system developed in Flutter using Dart, integrating Firebase to allow synchronized score updates across multiple users.",
+    "media": [
+      { "type": "image", "src": "images/project3-1.jpg" },
+      { "type": "image", "src": "images/project3-2.jpg" },
+      { "type": "image", "src": "images/project3-3.jpg" },
+      { "type": "image", "src": "images/project3-4.jpg" },
+      { "type": "image", "src": "images/project3-5.jpg" }
+    ]
+  },
+  {
+    "title": "México COVID-19 – Real-Time Pandemic Information & Symptom Tracker 📊🦠",
+    "description": "México COVID-19 is a mobile application designed to track symptoms and provide accurate and real-time pandemic updates while allowing users to track their symptoms over time. Built with official WHO data, the app integrates multiple APIs to deliver live news and case counts.",
+    "media": [
+      { "type": "image", "src": "images/project4-1.jpg" },
+      { "type": "image", "src": "images/project4-2.jpg" },
+      { "type": "image", "src": "images/project4-4.jpg" },
+      { "type": "image", "src": "images/project4-5.jpg" },
+      { "type": "image", "src": "images/project4-6.jpg" }
+    ]
+  },
+  {
+    "title": "Admission Tool – A Dynamic Applicant Management System 🎓📋",
+    "description": "The Admission Tool is a Flutter & Dart application designed to streamline applicant management by allowing users to create, modify, and evaluate admission applications efficiently.",
+    "media": [
+      { "type": "image", "src": "images/project5-1.jpg" },
+      { "type": "image", "src": "images/project5-2.jpg" },
+      { "type": "image", "src": "images/project5-3.jpg" },
+      { "type": "image", "src": "images/project5-4.jpg" }
+    ]
+  },
+  {
+    "title": "Bosch Connectory Mexico Registry System 📝",
+    "description": "I developed a registry system for Bosch Connectory Mexico using React.js and Node.js, designed to seamlessly integrate into their existing software workflow. The system allows users to register for events, manage attendee data, and generate QR codes for easy check-in and validation. Additionally, the platform includes a real-time QR scanner to streamline access control, ensuring a smooth registration and verification process. ",
+    "media": [
+      { "type": "image", "src": "images/project6-1.png" },
+      { "type": "image", "src": "images/project6-2.png" },
+      { "type": "image", "src": "images/project6-3.png" },
+      { "type": "image", "src": "images/project6-4.png" },
+      { "type": "image", "src": "images/project6-5.png" },
+      { "type": "image", "src": "images/project6-6.png" },
+      { "type": "image", "src": "images/project6-7.png" }
+    ]
+  },
+  {
+    "title": "Airport Simulator 🏢✈️",
+    "description": "Developed in Java using Java Interfaces, this airport simulator allows users to manage flights and passengers efficiently. You can search, add, retrieve, and delete both flights and passengers while also generating detailed statistics based on age, destination, weight, and other factors. The system provides a structured and interactive way to handle airport logistics, offering a complete management tool for flight and passenger operations.",
+    "media": [
+      { "type": "image", "src": "images/project7-1.png" },
+      { "type": "image", "src": "images/project7-2.png" },
+      { "type": "image", "src": "images/project7-3.png" },
+      { "type": "image", "src": "images/project7-4.png" },
+      { "type": "image", "src": "images/project7-5.png" }
+    ]
+  },
+  {
+    "title": "Numerical Approximation of Integrals in Two Dimensions 📊🔢",
+    "description": "This project aims to numerically approximate integrals in two dimensions using the trapezoidal rule, Simpson’s rule, and Gaussian integration. These techniques were researched, adapted to two dimensions, demonstrated, and programmed in Python to evaluate their accuracy through a series of test integrals. Each method has its own advantages and disadvantages, making it essential to understand how they work and when they are most appropriate to use. Through this project, a deeper understanding of mathematical and computational concepts was achieved, strengthening essential skills for future mathematicians and researchers.",
+    "media": [
+      { "type": "image", "src": "images/project8-1.png" },
+      { "type": "image", "src": "images/project8-2.png" },
+      { "type": "image", "src": "images/project8-3.png" }
+    ]
+  },
+  {
+    "title": "School Student Reassignment Optimization 🏫🚌",
+    "description": "Designed and implemented a Linear Programming model to optimize the reassignment of students from closing schools, aiming to minimize future bus transportation costs. The model strategically allocates students to new schools while considering capacity constraints and transportation efficiency. This project showcases the application of mathematical optimization in real-world logistical challenges, ensuring cost-effective and practical solutions for student transportation.",
+    "media": [
+      { "type": "image", "src": "images/project9-1.png" },
+      { "type": "image", "src": "images/project9-2.png" }
+    ]
+  },
+  {
+    "title": "Analysis of Climate and Environmental Factors on Global Agricultural Productivity 🌍🌾",
+    "description": "This project examines the influence of climate and environmental factors on global agricultural productivity using a statistical model based on data from various regions worldwide. A Kaggle dataset with over 10,000 observations was analyzed, incorporating key variables such as average temperature, total precipitation, crop type, and extreme weather events. The target variable, agricultural productivity measured in metric tons per hectare, exhibited a positively skewed distribution, leading to the application of Generalized Linear Models (GLM) with a Gamma distribution and logarithmic and inverse link functions to better capture the underlying patterns.",
+    "media": [
+      { "type": "image", "src": "images/project10-1.png" },
+      { "type": "image", "src": "images/project10-2.png" },
+      { "type": "image", "src": "images/project10-3.png" }
+    ]
+  },
+  {
+    "title": "Tile 2D Animation Using OpenGL 🎨🖥️",
+    "description": "Developed a 2D tile animation where the tile disassembles, narrates a story, and reassembles at the end, creating a smooth and visually engaging sequence. Implemented using OpenGL, GLAD, and GLFW, leveraging low-level graphics programming to control transformations, rendering, and real-time animation. The project required careful timing, interpolation, and graphical pipeline management to ensure fluid motion and seamless storytelling within the animation.",
+    "media": [
+      { "type": "video", "src": "videos/project11-1.mp4" }
+    ]
+  },
+  {
+    "title": "Syntax Analysis of While Structures Using a Non-Deterministic Pushdown Automaton 📝🔍",
+    "description": "Developed a Python program that analyzes code blocks containing while loops to verify their correct syntactic formation and generate detailed statistics about their content. The analysis is performed using a Non-Deterministic Pushdown Automaton (NPDA), which checks the structure of while blocks, including variables, operators, and delimiters. ",
+    "media": [
+      { "type": "image", "src": "images/project12-1.png" },
+      { "type": "image", "src": "images/project12-2.png" }
+    ]
+  },
+  {
+    "title": "Java Variable Declaration Analyzer Using Regular Expressions 🖥️📊",
+    "description": "Developed a Python program that analyzes a .txt file to identify and categorize Java variable declarations using regular expressions. The script supports various data types (boolean, char, int, float, double, and String) and handles both basic variable declarations and array declarations. The program extracts and presents detailed statistics on the identified variables.",
+    "media": [
+      { "type": "image", "src": "images/project13-1.png" },
+      { "type": "image", "src": "images/project13-2.png" }
+    ]
+  }
+]
+  
