@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Mathematics",
+        "subtitle": "My favorite theorem: You can't always underperform.",
+        "images": ["images/theorem1.jpg"]
+    },
+    {
+      "title": "Movies",
+      "subtitle": "Some of my favorite movies.",
+      "images": ["images/movies1.jpg", "images/movies2.jpg", "images/movies3.jpg", "images/movies4.jpg"]
+    },
+    {
+      "title": "Photography",
+      "subtitle": "Some of the pictures I've taken",
+      "images": ["images/photography1.jpg","images/photography2.jpg","images/photography3.jpg","images/photography4.jpg"]
+    },
+    {
+      "title": "Martial Arts",
+      "subtitle": "I've been training box, muay thai and brazilian jiu-jitsu for a year and a half.",
+      "images": ["images/mma1.jpg", "images/mma2.jpg"]
+    }
+  ]
+  
