@@ -1,130 +1,408 @@
 [
   {
-    "title": "Jumpin' - A Fast-Paced Mobile Arcade Game 🚀🎮",
-    "description": "Jumpin' is a fast-paced mobile arcade game developed in Unity with C#, where players control a bouncing ball to dodge incoming squares. If the ball touches an obstacle, the game is over. With simple tap controls and addictive gameplay, JumpBall challenges players' reflexes in an endless run of precision and timing.",
+    "id": "quiniela-2026",
+    "title": "World Cup 2026 pool: market-anchored Bayesian simulation with a rank objective",
+    "year": 2026,
+    "month": 7,
+    "dateLabel": "Jun to Jul 2026",
+    "tier": "featured",
+    "context": "Personal project, solo. 33 entrants, 104 matches.",
+    "pitch": "A daily decision system that picks scores to maximize the probability of finishing first, not expected points. It finished 1st with a 13-point lead going into the final.",
+    "bullets": [
+      "Goal model: Dixon-Coles with host advantage. Shape parameters fitted once with NumPyro NUTS on 15,636 international matches; team strengths re-anchored to the betting market every day by Shin de-vigging 1X2 and totals odds and inverting them with a KL-minimizing solver in JAX. The market is the prior; no edge is claimed over it.",
+      "Simulation: 500,000 full-tournament scenarios per night (groups, best-thirds matching over all 495 combinations, bracket) with a shared strength draw per scenario for cross-match correlation.",
+      "Rivals: each of 32 opponents gets a latent style (sharpness, favourite bias, high-score bias, contrarianism) with hierarchical partial pooling, inferred only from their leaderboard deltas by convolving per-match score laws. Their picks were never observed.",
+      "Optimizer: Rao-Blackwellized estimate of P(win) with common random numbers and coordinate ascent. The resulting value curve made batches risk-seeking when behind and risk-averse when ahead without hard-coding either.",
+      "Results: exact-score rate 18.5% (12 of 65 comparable matches) vs 8.75% for the average rival. Ex-ante P(win) on day one was 0.40 against a 1/32 baseline. Counterfactual on the same 96 picks, 90-minute scoreline points only: this optimizer 112, max-expected-points 104, modal picks 101. Calibration against Bet365 correct-score odds was within noise (n = 25) and is reported as such.",
+      "Stack: Python 3.12, JAX, NumPyro, DuckDB and Parquet, Typer CLI, FastAPI, Next.js, Streamlit; about 8,500 lines, 60 tests, 5 LaTeX specification documents and 7 architecture decision records. Everything ran on CPU on a laptop."
+    ],
+    "tags": ["Bayesian inference", "JAX / NumPyro", "Monte Carlo", "decision theory", "betting markets", "FastAPI", "Next.js"],
+    "links": { "repo": "https://github.com/armando-ibarraran/quiniela-mundial-2026" },
     "media": [
-      { "type": "image", "src": "images/project1-1.jpg" },
-      { "type": "image", "src": "images/project1-2.jpg" },
-      { "type": "image", "src": "images/project1-3.jpg" },
-      { "type": "image", "src": "images/project1-4.jpg" },
-      { "type": "image", "src": "images/project1-5.jpg" },
-      { "type": "video", "src": "videos/project1-demo1.mp4" }
+      { "type": "image", "src": "images/quiniela-picks.png", "alt": "Operator panel: pick for the final, Spain 1-0 Argentina, with P(exact) 14.5% and P(win) 100%" },
+      { "type": "image", "src": "images/quiniela-diagnostics.png", "alt": "Batch score distribution, value curve and champion probabilities before the final" }
     ]
   },
   {
-    "title": "Dual Shot – A Competitive Two-Player Shooter 🎯",
-    "description": "Dual Shot is atwo-player arcade shooter, developed in Unity with C#, where players control cannons on opposite sides of the screen and compete to destroy obstacles and each other.",
+    "id": "bravos-energia",
+    "title": "Bravos Energía: modeling counterparties' bids in ERCOT CRR auctions",
+    "year": 2026,
+    "month": 2,
+    "dateLabel": "Feb 2026 onward",
+    "tier": "featured",
+    "context": "Jr. Generation Analyst, Bravos Energía, Mexico City.",
+    "pitch": "Predictive models of competitor bid curves in ERCOT's Congestion Revenue Rights auctions, and the data pipelines behind them.",
+    "bullets": [
+      "Machine learning models that predict competitor bids from historical bid curves and congestion outcomes.",
+      "Data-processing pipelines for auction data that feed modeling and strategy work.",
+      "Met the company at HackICN 2025, where it sponsored the power-grid challenge."
+    ],
+    "tags": ["electricity markets", "auctions", "time series", "machine learning", "data pipelines"],
+    "links": {},
+    "media": []
+  },
+  {
+    "id": "nasa-jpl",
+    "title": "NASA JPL: downlink tooling for autonomous missions and state estimation from incomplete telemetry",
+    "year": 2025,
+    "month": 8,
+    "dateLabel": "Jun to Aug 2025",
+    "tier": "featured",
+    "context": "Visiting Student Researchers Program, autonomous mission operations group, Jet Propulsion Laboratory.",
+    "pitch": "Shipped features in the downlink tool that explains what an autonomous spacecraft did, and prototyped a framework that reconstructs its behavior when the downlink is incomplete.",
+    "bullets": [
+      "Unified the tool's data tables into one reusable React and TypeScript component, fixed sorting, and added a run-count column with the database and GraphQL API changes behind it.",
+      "Designed a URL-encoded state interface (has, set, get, delete over the URL hash, kept consistent with the Zustand store) so any reconstruction view is shareable and reproducible.",
+      "Built a bookmarks system and prototyped task-to-task constraint visualizations that show why the onboard planner made each decision.",
+      "Research: compared linear and polynomial regression, Kalman filter and RTS smoother (parameters learned by EM) and Gaussian processes on simulated telemetry; combined models with the law of total expectation, weighted by model plausibility, and organized them by spacecraft operating mode."
+    ],
+    "tags": ["state estimation", "Kalman / RTS", "Gaussian processes", "React / TypeScript", "GraphQL", "spacecraft autonomy"],
+    "links": {},
     "media": [
-      { "type": "image", "src": "images/project2-1.jpg" },
-      { "type": "image", "src": "images/project2-2.jpg" },
-      { "type": "image", "src": "images/project2-3.jpg" },
-      { "type": "image", "src": "images/project2-4.jpg" }
+      { "type": "image", "src": "images/jpl-mission-control.jpg", "alt": "At the Charles Elachi Mission Control Center, JPL" },
+      { "type": "image", "src": "images/jpl-sign.jpg", "alt": "At the JPL entrance sign" }
     ]
   },
   {
-    "title": "Volleyball Scoreboard – A Real-Time Sports Score Tracker 🏐📊",
-    "description": "The Volleyball Scoreboard app is a real-time sports tracking system developed in Flutter using Dart, integrating Firebase to allow synchronized score updates across multiple users.",
+    "id": "hackicn-2025",
+    "title": "HackICN 2025: fast power-grid topology reduction",
+    "year": 2025,
+    "month": 10,
+    "dateLabel": "Oct 2025",
+    "tier": "featured",
+    "context": "2nd place. Team Sistemas Cyberdyne, Instituto de Ciencias Nucleares, UNAM. Sponsored by Bravos Energía and Huawei; 240+ applications.",
+    "pitch": "Reduce Mexico's transmission-grid graph so power-flow sensitivities compute faster while critical buses and lines are preserved.",
+    "bullets": [
+      "Distribution factors scale as O(n^3): doubling the grid means eight times the compute.",
+      "Pipeline: mark critical nodes and lines, collapse parallel branches, prune radial leaves, eliminate series buses.",
+      "Reduction factor 0.46 in 1.7 seconds; distribution-factor computation went from 63 s to 24 s, about 2.6x faster."
+    ],
+    "tags": ["power systems", "graph algorithms", "distribution factors", "hackathon"],
+    "links": { "article": "https://www.gaceta.unam.mx/imaginan-soluciones-reales-para-los-desafios-de-nuestro-tiempo/" },
     "media": [
-      { "type": "image", "src": "images/project3-1.jpg" },
-      { "type": "image", "src": "images/project3-2.jpg" },
-      { "type": "image", "src": "images/project3-3.jpg" },
-      { "type": "image", "src": "images/project3-4.jpg" },
-      { "type": "image", "src": "images/project3-5.jpg" }
+      { "type": "image", "src": "images/hackicn-prize.jpg", "alt": "Team Sistemas Cyberdyne with the second-place prizes" },
+      { "type": "image", "src": "images/hackicn-group.jpg", "alt": "HackICN 2025 participants with the Bravos banner" }
     ]
   },
   {
-    "title": "México COVID-19 – Real-Time Pandemic Information & Symptom Tracker 📊🦠",
-    "description": "México COVID-19 is a mobile application designed to track symptoms and provide accurate and real-time pandemic updates while allowing users to track their symptoms over time. Built with official WHO data, the app integrates multiple APIs to deliver live news and case counts.",
+    "id": "predator-prey-chaos",
+    "title": "From Lotka-Volterra to chaos in food chains",
+    "year": 2026,
+    "month": 5,
+    "dateLabel": "May 2026",
+    "tier": "featured",
+    "context": "Dynamical Systems II, ITAM. With Emilio Leguizamo.",
+    "pitch": "Qualitative and numerical analysis of predator-prey models, from the conservative two-species case to a chaotic three-species chain.",
+    "bullets": [
+      "Lotka-Volterra: Hartman-Grobman at the saddle, a Lyapunov function built from the first integral at the non-hyperbolic center, and Poincare-Bendixson to show every interior orbit is periodic. Adding a logistic term with epsilon = 0.15 turns the center into a stable focus, which exhibits the model's structural instability.",
+      "Rosenzweig-MacArthur: Holling type II response and a Hopf bifurcation at carrying capacity K of about 4.67 (the paradox of enrichment), verified numerically with a limit cycle of period about 17.4 at K = 6.",
+      "Hastings-Powell in 3D: the teacup strange attractor, a period-doubling cascade whose ratios approach Feigenbaum's constant, a largest Lyapunov exponent of 0.0064 (plus or minus 0.0002) by Benettin's algorithm, and a Poincare section with 612 points consistent with dimension about 2.07.",
+      "Numerics with scipy RK45 at rtol 1e-10; the conserved quantity drifted less than 7.4e-11 over the run."
+    ],
+    "tags": ["dynamical systems", "bifurcations", "chaos", "Lyapunov exponents", "scientific Python"],
+    "links": {},
     "media": [
-      { "type": "image", "src": "images/project4-1.jpg" },
-      { "type": "image", "src": "images/project4-2.jpg" },
-      { "type": "image", "src": "images/project4-4.jpg" },
-      { "type": "image", "src": "images/project4-5.jpg" },
-      { "type": "image", "src": "images/project4-6.jpg" }
+      { "type": "image", "src": "images/chaos-attractor.jpg", "alt": "Hastings-Powell teacup attractor in 3D" },
+      { "type": "image", "src": "images/chaos-bifurcation.jpg", "alt": "Period-doubling cascade towards chaos as the intermediate predator mortality varies" },
+      { "type": "image", "src": "images/chaos-limit-cycle.jpg", "alt": "Rosenzweig-MacArthur limit cycle at K = 6" },
+      { "type": "image", "src": "images/chaos-poincare.jpg", "alt": "Poincare section of the Hastings-Powell attractor" }
     ]
   },
   {
-    "title": "Admission Tool – A Dynamic Applicant Management System 🎓📋",
-    "description": "The Admission Tool is a Flutter & Dart application designed to streamline applicant management by allowing users to create, modify, and evaluate admission applications efficiently.",
+    "id": "hitmonsters",
+    "title": "HitMonsters: load-testing a TCP and pub/sub multiplayer game",
+    "year": 2026,
+    "month": 3,
+    "dateLabel": "Mar 2026",
+    "tier": "featured",
+    "context": "Distributed Systems, ITAM. Solo.",
+    "pitch": "A Java multiplayer game with TCP authentication and hits and an ActiveMQ topic for monster spawns, stress-tested from 50 to 500 concurrent clients.",
+    "bullets": [
+      "Hit races resolved with compareAndSet so exactly one player scores; state in a ConcurrentHashMap; 4 s heartbeat with 8 s timeout to detect crashed clients.",
+      "Stress harness: 50 to 500 clients, 10 repetitions each, simulated reaction times, 5% abrupt disconnects with reconnection.",
+      "Hit success stayed at or above 99.5% at every load; registration success collapsed to 26.8% at 350 clients because of the thread-per-connection model and the socket backlog, not TCP.",
+      "The pub/sub layer's temporal decoupling kept the game path robust; the proposed fix for registration is a bounded thread pool."
+    ],
+    "tags": ["Java concurrency", "TCP sockets", "JMS / ActiveMQ", "load testing"],
+    "links": { "repo": "https://github.com/armando-ibarraran/ProyectoAlpha_SistemasDistribuidos" },
     "media": [
-      { "type": "image", "src": "images/project5-1.jpg" },
-      { "type": "image", "src": "images/project5-2.jpg" },
-      { "type": "image", "src": "images/project5-3.jpg" },
-      { "type": "image", "src": "images/project5-4.jpg" }
+      { "type": "image", "src": "images/hitmonsters-latency.png", "alt": "Registration and hit latency and registration success rate versus number of clients" }
     ]
   },
   {
-    "title": "Bosch Connectory Mexico Registry System 📝",
-    "description": "I developed a registry system for Bosch Connectory Mexico using React.js and Node.js, designed to seamlessly integrate into their existing software workflow. The system allows users to register for events, manage attendee data, and generate QR codes for easy check-in and validation. Additionally, the platform includes a real-time QR scanner to streamline access control, ensuring a smooth registration and verification process. ",
+    "id": "imav-2025",
+    "title": "IMAV 2025: vision-based obstacle navigation for a DJI Mini",
+    "year": 2025,
+    "month": 11,
+    "dateLabel": "Fall 2025",
+    "tier": "featured",
+    "context": "International Micro Air Vehicle competition. Team.",
+    "pitch": "Adapted a commercial DJI Mini and wrote the Python control loop so it navigated an obstacle course from onboard camera input.",
+    "bullets": [],
+    "tags": ["computer vision", "control", "drones", "Python"],
+    "links": {},
     "media": [
-      { "type": "image", "src": "images/project6-1.png" },
-      { "type": "image", "src": "images/project6-2.png" },
-      { "type": "image", "src": "images/project6-3.png" },
-      { "type": "image", "src": "images/project6-4.png" },
-      { "type": "image", "src": "images/project6-5.png" },
-      { "type": "image", "src": "images/project6-6.png" },
-      { "type": "image", "src": "images/project6-7.png" }
+      { "type": "image", "src": "images/imav-2025.jpg", "alt": "IMAV 2025 attendees" }
     ]
   },
   {
-    "title": "Airport Simulator 🏢✈️",
-    "description": "Developed in Java using Java Interfaces, this airport simulator allows users to manage flights and passengers efficiently. You can search, add, retrieve, and delete both flights and passengers while also generating detailed statistics based on age, destination, weight, and other factors. The system provides a structured and interactive way to handle airport logistics, offering a complete management tool for flight and passenger operations.",
+    "id": "racing-line",
+    "title": "Optimal racing line with a from-scratch L-BFGS trust-region solver",
+    "year": 2025,
+    "month": 5,
+    "dateLabel": "May 2025",
+    "tier": "featured",
+    "context": "Applied Analysis, ITAM. With Martín Fabre and Eduardo García.",
+    "pitch": "Minimize lap time on real Formula 1 circuit geometry by optimizing lateral position and speed together, with vehicle limits as soft penalties.",
+    "bullets": [
+      "Centrelines from open circuit GeoJSON, projected and resampled every 30 m on a 12 m wide track; decision vector of sigmoid lateral offsets plus segment speeds.",
+      "Objective: total time plus exponential penalties for speed, longitudinal acceleration (10 m/s^2), minimum turning radius (10 m) and lateral acceleration (mu = 1.7).",
+      "Solver: limited-memory BFGS (m = 5, two-loop recursion) inside a simplified trust region, finite-difference gradients, 100 iterations.",
+      "Lap times: Monza 159.1 s, Autódromo Hermanos Rodríguez 133.6 s, roughly 50 to 100% above F1 records, which the 30 m discretization and simplified physics explain."
+    ],
+    "tags": ["nonlinear optimization", "quasi-Newton", "trust region", "geospatial Python"],
+    "links": { "repo": "https://github.com/armando-ibarraran/RacingLine" },
     "media": [
-      { "type": "image", "src": "images/project7-1.png" },
-      { "type": "image", "src": "images/project7-2.png" },
-      { "type": "image", "src": "images/project7-3.png" },
-      { "type": "image", "src": "images/project7-4.png" },
-      { "type": "image", "src": "images/project7-5.png" }
+      { "type": "image", "src": "images/racing-monza.svg", "alt": "Optimized racing line at Monza" },
+      { "type": "image", "src": "images/racing-mexico.svg", "alt": "Optimized racing line at Autódromo Hermanos Rodríguez" },
+      { "type": "image", "src": "images/racing-ellipse.svg", "alt": "Optimized racing line on an elliptical test circuit" }
     ]
   },
   {
-    "title": "Numerical Approximation of Integrals in Two Dimensions 📊🔢",
-    "description": "This project aims to numerically approximate integrals in two dimensions using the trapezoidal rule, Simpson’s rule, and Gaussian integration. These techniques were researched, adapted to two dimensions, demonstrated, and programmed in Python to evaluate their accuracy through a series of test integrals. Each method has its own advantages and disadvantages, making it essential to understand how they work and when they are most appropriate to use. Through this project, a deeper understanding of mathematical and computational concepts was achieved, strengthening essential skills for future mathematicians and researchers.",
+    "id": "ort-bus-routes",
+    "title": "Bus route adherence from GPS traces, for Mexico City's transport regulator",
+    "year": 2024,
+    "month": 5,
+    "dateLabel": "Nov 2023 to May 2024",
+    "tier": "featured",
+    "context": "Data Science Fellow, Data Science Center ITAM, project for the ORT.",
+    "pitch": "Cleaned 70,000+ GPS points from microbuses and built a route-adherence metric that benchmarks drivers against the official route variants.",
+    "bullets": [
+      "Deduplication and proximity filtering of raw GPS; distance from each point to the nearest node of each candidate variant; the predicted variant minimizes the aggregate discrepancy.",
+      "Each driver's discrepancy is reported as a percentile against a reference distribution, across 100+ trips.",
+      "Delivered as an interactive Leaflet map."
+    ],
+    "tags": ["geospatial", "GeoPandas", "map matching", "public transport"],
+    "links": { "repo": "https://github.com/armando-ibarraran/RouteAnalysis" },
     "media": [
-      { "type": "image", "src": "images/project8-1.png" },
-      { "type": "image", "src": "images/project8-2.png" },
-      { "type": "image", "src": "images/project8-3.png" }
+      { "type": "image", "src": "images/ort-map.jpg", "alt": "GPS trace (blue) matched to an official route variant (red) on a Leaflet map" }
     ]
   },
   {
-    "title": "School Student Reassignment Optimization 🏫🚌",
-    "description": "Designed and implemented a Linear Programming model to optimize the reassignment of students from closing schools, aiming to minimize future bus transportation costs. The model strategically allocates students to new schools while considering capacity constraints and transportation efficiency. This project showcases the application of mathematical optimization in real-world logistical challenges, ensuring cost-effective and practical solutions for student transportation.",
+    "id": "crop-yield-glm",
+    "title": "Climate and environmental drivers of crop yield",
+    "year": 2025,
+    "month": 4,
+    "dateLabel": "Spring 2025",
+    "tier": "featured",
+    "context": "Applied Statistics, ITAM.",
+    "pitch": "Gamma generalized linear models with log and inverse links on 10,000+ global observations to explain yield in tonnes per hectare from temperature, precipitation, CO2, crop type and extreme weather.",
+    "bullets": [
+      "Kaggle dataset with 10,000+ observations: average temperature, total precipitation, CO2, crop type and extreme weather events as predictors.",
+      "The response is positively skewed, so Gamma GLMs with log and inverse link functions were fitted and compared."
+    ],
+    "tags": ["GLM", "R", "applied statistics"],
+    "links": { "repo": "https://github.com/armando-ibarraran/CropYield_LinearRegression" },
     "media": [
-      { "type": "image", "src": "images/project9-1.png" },
-      { "type": "image", "src": "images/project9-2.png" }
+      { "type": "image", "src": "images/project10-1.png", "alt": "Histogram and boxplot of crop yield" },
+      { "type": "image", "src": "images/project10-3.png", "alt": "GLM coefficient table" }
     ]
   },
   {
-    "title": "Analysis of Climate and Environmental Factors on Global Agricultural Productivity 🌍🌾",
-    "description": "This project examines the influence of climate and environmental factors on global agricultural productivity using a statistical model based on data from various regions worldwide. A Kaggle dataset with over 10,000 observations was analyzed, incorporating key variables such as average temperature, total precipitation, crop type, and extreme weather events. The target variable, agricultural productivity measured in metric tons per hectare, exhibited a positively skewed distribution, leading to the application of Generalized Linear Models (GLM) with a Gamma distribution and logarithmic and inverse link functions to better capture the underlying patterns.",
+    "id": "school-reassignment-lp",
+    "title": "School reassignment as a linear program",
+    "year": 2024,
+    "month": 11,
+    "dateLabel": "Fall 2024",
+    "tier": "featured",
+    "context": "Linear Programming, ITAM.",
+    "pitch": "A linear program that reassigns students from closing schools to minimize future bus transportation cost under capacity constraints.",
+    "bullets": [
+      "Allocates students from closing schools to receiving schools subject to capacity, minimizing transportation cost.",
+      "Modeled and solved in Python."
+    ],
+    "tags": ["linear programming", "operations research", "Python"],
+    "links": { "repo": "https://github.com/armando-ibarraran/ProblemaAsignacionEscuelas" },
     "media": [
-      { "type": "image", "src": "images/project10-1.png" },
-      { "type": "image", "src": "images/project10-2.png" },
-      { "type": "image", "src": "images/project10-3.png" }
+      { "type": "image", "src": "images/project9-1.png", "alt": "Formulation of the reassignment linear program" },
+      { "type": "image", "src": "images/project9-2.png", "alt": "Optimal assignment results" }
     ]
   },
   {
-    "title": "Tile 2D Animation Using OpenGL 🎨🖥️",
-    "description": "Developed a 2D tile animation where the tile disassembles, narrates a story, and reassembles at the end, creating a smooth and visually engaging sequence. Implemented using OpenGL, GLAD, and GLFW, leveraging low-level graphics programming to control transformations, rendering, and real-time animation. The project required careful timing, interpolation, and graphical pipeline management to ensure fluid motion and seamless storytelling within the animation.",
+    "id": "bosch-connectory",
+    "title": "Bosch Connectory Guadalajara: QR event registration and check-in",
+    "year": 2021,
+    "month": 8,
+    "dateLabel": "Jul to Aug 2021",
+    "tier": "featured",
+    "context": "Summer project, three weeks on site.",
+    "pitch": "A React and Node system with pre-registration, QR issuance, an on-site scanner and an admin dashboard. It replaced paper sign-in and collecting visitor data at the door.",
+    "bullets": [
+      "Visitors register through a link, receive a QR code and scan it on arrival; staff see attendance in real time.",
+      "Integrated into the Connectory's existing workflow; event creation and management for staff."
+    ],
+    "tags": ["React", "Node.js", "full-stack"],
+    "links": {},
     "media": [
-      { "type": "video", "src": "videos/project11-1.mp4" }
+      { "type": "image", "src": "images/project6-1.png", "alt": "Pre-registration form" },
+      { "type": "image", "src": "images/project6-2.png", "alt": "QR registration code" },
+      { "type": "image", "src": "images/project6-3.png", "alt": "Admin dashboard" },
+      { "type": "image", "src": "images/project6-6.png", "alt": "Events management page" }
     ]
   },
+
   {
-    "title": "Syntax Analysis of While Structures Using a Non-Deterministic Pushdown Automaton 📝🔍",
-    "description": "Developed a Python program that analyzes code blocks containing while loops to verify their correct syntactic formation and generate detailed statistics about their content. The analysis is performed using a Non-Deterministic Pushdown Automaton (NPDA), which checks the structure of while blocks, including variables, operators, and delimiters. ",
-    "media": [
-      { "type": "image", "src": "images/project12-1.png" },
-      { "type": "image", "src": "images/project12-2.png" }
-    ]
+    "id": "jumpin",
+    "title": "Jumpin'",
+    "year": 2019,
+    "month": 6,
+    "dateLabel": "2018 to 2020",
+    "tier": "earlier",
+    "pitch": "Unity and C# arcade game: dodge falling squares with a bouncing ball, classic and color modes. 100+ downloads.",
+    "tags": ["Unity", "C#", "mobile"],
+    "links": { "repo": "https://github.com/armando-ibarraran/jumpin" }
   },
   {
-    "title": "Java Variable Declaration Analyzer Using Regular Expressions 🖥️📊",
-    "description": "Developed a Python program that analyzes a .txt file to identify and categorize Java variable declarations using regular expressions. The script supports various data types (boolean, char, int, float, double, and String) and handles both basic variable declarations and array declarations. The program extracts and presents detailed statistics on the identified variables.",
-    "media": [
-      { "type": "image", "src": "images/project13-1.png" },
-      { "type": "image", "src": "images/project13-2.png" }
-    ]
+    "id": "dual-shot",
+    "title": "Dual Shot",
+    "year": 2019,
+    "month": 5,
+    "dateLabel": "2018 to 2020",
+    "tier": "earlier",
+    "pitch": "Two-player split-screen cannon duel in Unity and C#.",
+    "tags": ["Unity", "C#", "mobile"],
+    "links": {}
+  },
+  {
+    "id": "volleyball-scoreboard",
+    "title": "Volleyball Scoreboard",
+    "year": 2020,
+    "month": 5,
+    "dateLabel": "2015, rebuilt 2020",
+    "tier": "earlier",
+    "pitch": "My first program at 12. Rebuilt in Flutter with Firebase: host and viewer devices, live score sync, timeouts.",
+    "tags": ["Flutter", "Firebase", "Dart"],
+    "links": {}
+  },
+  {
+    "id": "admission-tool",
+    "title": "Admission Tool",
+    "year": 2020,
+    "month": 8,
+    "dateLabel": "2020",
+    "tier": "earlier",
+    "pitch": "Flutter app to define application forms, capture applicants and track accepted and rejected candidates.",
+    "tags": ["Flutter", "Dart"],
+    "links": { "repo": "https://github.com/armando-ibarraran/admission2.0" }
+  },
+  {
+    "id": "covid-tracker",
+    "title": "México COVID-19",
+    "year": 2020,
+    "month": 6,
+    "dateLabel": "2020",
+    "tier": "earlier",
+    "pitch": "Symptom calendar, WHO guidance and self-assessment, live news and case-count APIs. Never shipped.",
+    "tags": ["Flutter", "REST APIs"],
+    "links": {}
+  },
+  {
+    "id": "airport-simulator",
+    "title": "Airport Simulator",
+    "year": 2022,
+    "month": 5,
+    "dateLabel": "2021 to 2022",
+    "tier": "earlier",
+    "pitch": "Java Swing manager for flights and passengers with search, CRUD and statistics.",
+    "tags": ["Java", "OOP"],
+    "links": {}
+  },
+  {
+    "id": "double-integrals",
+    "title": "Numerical integration in two dimensions",
+    "year": 2023,
+    "month": 5,
+    "dateLabel": "Spring 2023",
+    "tier": "earlier",
+    "pitch": "Trapezoid, Simpson and Gaussian quadrature extended to two dimensions and benchmarked on test integrals in Python.",
+    "tags": ["numerical methods", "Python"],
+    "links": { "repo": "https://github.com/armando-ibarraran/Computational-Mathematics" }
+  },
+  {
+    "id": "automata-analyzers",
+    "title": "Syntax analyzers with automata and regular expressions",
+    "year": 2024,
+    "month": 3,
+    "dateLabel": "2023 to 2024",
+    "tier": "earlier",
+    "pitch": "A non-deterministic pushdown automaton that validates nested while blocks, and a regex-based classifier of Java variable declarations, both with statistics on the input.",
+    "tags": ["automata", "regular expressions", "Python"],
+    "links": {}
+  },
+  {
+    "id": "call-center-ip",
+    "title": "Hospital call-center staffing",
+    "year": 2024,
+    "month": 10,
+    "dateLabel": "Fall 2024",
+    "tier": "earlier",
+    "pitch": "Integer program for a bilingual call center over seven daily periods; bilingual staffing saves 7.6 to 10.8% of wage cost.",
+    "tags": ["integer programming", "scheduling"],
+    "links": {}
+  },
+  {
+    "id": "opengl-tile",
+    "title": "Tile animation in OpenGL",
+    "year": 2024,
+    "month": 11,
+    "dateLabel": "Fall 2024",
+    "tier": "earlier",
+    "pitch": "A 2D tile that disassembles, tells a story and reassembles; OpenGL, GLAD and GLFW with hand-written transforms and interpolation.",
+    "tags": ["C++", "OpenGL"],
+    "links": { "repo": "https://github.com/armando-ibarraran/OpenGL" }
+  },
+  {
+    "id": "afm-roughness",
+    "title": "Nano-roughness analyzer for AFM images",
+    "year": 2022,
+    "month": 1,
+    "dateLabel": "2021 to 2022",
+    "tier": "earlier",
+    "pitch": "MATLAB App Designer tool that extracts line profiles from atomic-force-microscope images and computes Ra, Rq, Rz and skewness from scratch.",
+    "tags": ["MATLAB", "signal processing"],
+    "links": {}
+  },
+  {
+    "id": "wan-design",
+    "title": "Multi-site WAN design for a perishables distributor",
+    "year": 2026,
+    "month": 5,
+    "dateLabel": "May 2026",
+    "tier": "earlier",
+    "pitch": "Hub-and-spoke IPsec VPN across three warehouses and headquarters, dual-ISP failover under 30 s, VLANs, SNMP monitoring and a five-year cost and ROI analysis.",
+    "tags": ["networking", "IPsec", "requirements"],
+    "links": {}
+  },
+  {
+    "id": "ibagui-website",
+    "title": "IBAGUI website",
+    "year": 2017,
+    "month": 6,
+    "dateLabel": "2016 to 2018",
+    "tier": "earlier",
+    "pitch": "WooCommerce store plus custom HTML, CSS and JS for my grandparents' decorative-figurine factory.",
+    "tags": ["web", "WooCommerce"],
+    "links": {}
+  },
+  {
+    "id": "uglysocks",
+    "title": "UglySocks",
+    "year": 2020,
+    "month": 2,
+    "dateLabel": "2020",
+    "tier": "earlier",
+    "pitch": "Custom sublimated socks business with my sister: equipment, inventory and an online store.",
+    "tags": ["side business"],
+    "links": {}
   }
 ]
-  
