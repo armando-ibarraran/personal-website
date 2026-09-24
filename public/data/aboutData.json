@@ -59,6 +59,10 @@
         "alt": "Blade Runner 2049 poster"
       },
       {
+        "src": "images/movies5.jpg",
+        "alt": "Fight Club poster"
+      },
+      {
         "src": "images/movies3.jpg",
         "alt": "Ya no estoy aquí poster"
       },
@@ -73,7 +77,20 @@
     "id": "series",
     "title": "Series",
     "subtitle": "True Detective, The Simpsons, The Mentalist.",
-    "images": [],
+    "images": [
+      {
+        "src": "images/tvshows1.jpg",
+        "alt": "True Detective poster"
+      },
+      {
+        "src": "images/tvshows2.jpg",
+        "alt": "The Simpsons poster"
+      },
+      {
+        "src": "images/tvshows3.jpg",
+        "alt": "The Mentalist poster"
+      }
+    ],
     "fit": "poster"
   }
 ]

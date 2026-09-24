@@ -81,7 +81,7 @@
     "title": "Bosch Connectory Guadalajara",
     "subtitle": "QR event registration and check-in system in React and Node. Replaced paper sign-in.",
     "href": "/projects#bosch-connectory",
-    "image": { "src": "images/project6-4.png", "alt": "QR scanner screen of the Connectory registration system" }
+    "image": { "src": "images/project6-6.png", "alt": "Event Form screen of the Connectory registration system" }
   },
   {
     "id": "tl-itam",
