@@ -1,0 +1,156 @@
+[
+  {
+    "id": "tl-volleyball",
+    "year": "2015",
+    "dateLabel": "age 12",
+    "title": "First program: a volleyball scoreboard",
+    "subtitle": "Built so spectators could follow my sister's matches without asking the referee. My father asked for it; it taught me the basics and got me hooked.",
+    "href": "/projects#volleyball-scoreboard",
+    "image": null
+  },
+  {
+    "id": "tl-ibagui",
+    "year": "2016",
+    "dateLabel": "2016 to 2018",
+    "title": "IBAGUI, my grandparents' factory",
+    "subtitle": "Built their product website (WooCommerce plus custom HTML, CSS and JS). Also worked the floor: drilling, assembling lamps, gluing, packing.",
+    "href": "/projects#ibagui-website",
+    "image": null
+  },
+  {
+    "id": "tl-games",
+    "year": "2018",
+    "dateLabel": "2018 to 2020",
+    "title": "Ibarrarán Software: Jumpin' and Dual Shot",
+    "subtitle": "Two Unity and C# mobile games, 100+ downloads. Code that has to model moving, interacting objects.",
+    "href": "/projects#jumpin",
+    "image": null
+  },
+  {
+    "id": "tl-talentland",
+    "year": "2019",
+    "dateLabel": "Apr 2019",
+    "title": "Speaker at Jalisco Talent Land",
+    "subtitle": "Gamer Land panel on building a small game studio, at Mexico's largest tech conference.",
+    "href": "https://jaliscotalentland2019.sched.com/event/O4BV/filosofia-kaiteki",
+    "image": { "src": "images/talentland-2019.jpg", "alt": "On stage at Talent Land 2019" }
+  },
+  {
+    "id": "tl-research",
+    "year": "2019",
+    "dateLabel": "Sep 2019 to Mar 2020",
+    "title": "Jóvenes a la Investigación",
+    "subtitle": "High-school research group on physics in medicine: the Standard Model and how MRI works. Interrupted by the pandemic.",
+    "image": null
+  },
+  {
+    "id": "tl-uglysocks",
+    "year": "2020",
+    "title": "UglySocks",
+    "subtitle": "Custom sublimated socks with my sister: a heat press, a printer, inventory and an online store.",
+    "image": { "src": "images/uglysocks-mockup.jpg", "alt": "UglySocks product mockup" }
+  },
+  {
+    "id": "tl-pandemic-apps",
+    "year": "2020",
+    "title": "Pandemic apps",
+    "subtitle": "Rebuilt the scoreboard with Firebase multi-device sync; a COVID symptom tracker that never shipped; an admissions tool.",
+    "href": "/projects#volleyball-scoreboard",
+    "image": null
+  },
+  {
+    "id": "tl-navarro",
+    "year": "2020",
+    "dateLabel": "Dec 2020",
+    "title": "Mentored by Dr. Rafael Navarro-González, ICN-UNAM",
+    "subtitle": "Summer program for high-school students. He was Co-Investigator on the Curiosity rover and on the ExoMars HABIT instrument.",
+    "href": "https://www.nucleares.unam.mx/premios/dr-rafael-navarro/quienfue.php",
+    "image": null
+  },
+  {
+    "id": "tl-tec",
+    "year": "2021",
+    "dateLabel": "May 2021",
+    "title": "3rd place, International Science Contest (Computer Science), Tec de Monterrey",
+    "image": null
+  },
+  {
+    "id": "tl-bosch",
+    "year": "2021",
+    "dateLabel": "Jul to Aug 2021",
+    "title": "Bosch Connectory Guadalajara",
+    "subtitle": "QR event registration and check-in system in React and Node. Replaced paper sign-in.",
+    "href": "/projects#bosch-connectory",
+    "image": { "src": "images/project6-4.png", "alt": "QR scanner screen of the Connectory registration system" }
+  },
+  {
+    "id": "tl-itam",
+    "year": "2021",
+    "dateLabel": "Aug 2021",
+    "title": "ITAM: Applied Mathematics and Computer Engineering",
+    "subtitle": "Engineering Scholarship for academic performance. Top Academic Performers Award 2021 to 2023; Highest GPA Award in the program, 2024 and 2025.",
+    "image": null
+  },
+  {
+    "id": "tl-dsc",
+    "year": "2023",
+    "dateLabel": "Nov 2023 to May 2024",
+    "title": "Data Science Center ITAM, project for the transport regulator (ORT)",
+    "subtitle": "70,000+ GPS points from Mexico City microbuses; a route-adherence metric and driver percentiles across 100+ trips.",
+    "href": "/projects#ort-bus-routes",
+    "image": { "src": "images/ort-map.jpg", "alt": "GPS trace of a microbus matched to an official route variant" }
+  },
+  {
+    "id": "tl-ta",
+    "year": "2024",
+    "dateLabel": "Jan 2024 onward",
+    "title": "Teaching assistant, Student Council treasurer, Computer Engineering representative",
+    "subtitle": "Weekly problem sessions for Physics, Electronics and Logic Circuits; a MXN 50,000+ student budget; programming contests and industry panels.",
+    "image": null
+  },
+  {
+    "id": "tl-jpl",
+    "year": "2025",
+    "dateLabel": "Jun to Aug 2025",
+    "title": "NASA JPL, Visiting Student Researcher",
+    "subtitle": "Downlink tooling for autonomous mission operations, and state estimation from incomplete telemetry.",
+    "href": "/projects#nasa-jpl",
+    "image": { "src": "images/jpl-mission-control.jpg", "alt": "At the Charles Elachi Mission Control Center, JPL" }
+  },
+  {
+    "id": "tl-hackicn",
+    "year": "2025",
+    "dateLabel": "Oct 2025",
+    "title": "2nd place, HackICN + Bravos Energía hackathon, UNAM",
+    "subtitle": "Power-grid topology reduction: distribution factors 2.6x faster. This is where Bravos Energía and I met.",
+    "href": "/projects#hackicn-2025",
+    "image": { "src": "images/hackicn-prize.jpg", "alt": "Team Sistemas Cyberdyne receiving second place at HackICN 2025" }
+  },
+  {
+    "id": "tl-imav",
+    "year": "2025",
+    "dateLabel": "Fall 2025",
+    "title": "IMAV 2025 drone competition",
+    "subtitle": "Vision-based obstacle navigation controller for a DJI Mini, written in Python.",
+    "href": "/projects#imav-2025",
+    "image": null
+  },
+  {
+    "id": "tl-bravos",
+    "year": "2026",
+    "dateLabel": "Feb 2026 onward",
+    "title": "Bravos Energía",
+    "subtitle": "Modeling counterparties' bids in ERCOT CRR auctions.",
+    "href": "/projects#bravos-energia",
+    "image": null
+  },
+  {
+    "id": "tl-quiniela",
+    "year": "2026",
+    "dateLabel": "Jun to Jul 2026",
+    "title": "World Cup pool: 1st of 33",
+    "subtitle": "Market-anchored Bayesian simulation, rival inference from the leaderboard, and an optimizer for the probability of finishing first.",
+    "href": "/projects#quiniela-2026",
+    "image": null
+  }
+]

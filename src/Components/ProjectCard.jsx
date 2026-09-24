@@ -1,29 +1,32 @@
 import React from 'react';
+import TagList from './TagList';
+import LinksRow from './LinksRow';
+import MediaCarousel from './MediaCarousel';
+import { linksFromObject } from '../lib/links';
 import './ProjectCard.css';
 
-function ProjectCard({ title, description, media }) {
+function ProjectCard({ id, title, dateLabel, context, pitch, bullets, tags, links, media }) {
   return (
-    <div className="project-card">
-      <div className="carousel">
-        {media.map((item, index) => (
-          <div key={index} className="carousel-item">
-            {item.type === 'image' ? (
-              <img src={item.src} alt={`Project ${title} - ${index}`} />
-            ) : (
-              <video controls>
-                <source src={item.src} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            )}
-          </div>
-        ))}
-      </div>
-
-      <div className="project-info">
+    <article className="project" id={id}>
+      <header className="project-header">
         <h3 className="project-title">{title}</h3>
-        <p className="project-description">{description}</p>
+        {dateLabel && <span className="project-date">{dateLabel}</span>}
+      </header>
+      {context && <p className="project-context muted">{context}</p>}
+      {pitch && <p className="project-pitch">{pitch}</p>}
+      {bullets && bullets.length > 0 && (
+        <ul className="project-bullets">
+          {bullets.map((b) => (
+            <li key={b}>{b}</li>
+          ))}
+        </ul>
+      )}
+      <div className="project-meta">
+        <TagList tags={tags} />
+        <LinksRow links={linksFromObject(links)} />
       </div>
-    </div>
+      <MediaCarousel media={media} title={title} />
+    </article>
   );
 }
 

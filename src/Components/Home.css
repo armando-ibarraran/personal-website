@@ -1,52 +1,58 @@
-article {
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
 }
 
-.home-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
+.home-portrait {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line-strong);
 }
 
-.home-portrait{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #333;
+.home-name {
+  font-size: clamp(1.15rem, 3.6vw, 1.7rem);
+  margin-bottom: var(--s2);
 }
 
-.home-name{
-    margin-left: 100px;
-    font-family: Boldonse;
-    max-width: 300px; /* Adjust based on your layout */
-    text-align: center;
-    word-wrap: break-word; /* Ensures breaking at spaces */
+.home-intro {
+  font-size: 1.05rem;
+  max-width: 60ch;
 }
 
-.home-description{
-    text-align: center;
-    font-size: 25px;
-    font-family: Poppins;
-    font-weight: 400;
-    width: 1000px;
+.home-sub {
+  margin-top: var(--s2);
+  font-size: 0.95rem;
+  max-width: 60ch;
 }
 
-.home-divider {
-    width: 80%; /* Adjust width */
-    margin: 100px auto; /* Centering */
-    border: none;
-    height: 2px;
-    background-color: rgba(0, 0, 0, 0.3); /* Subtle color */
+.home-links {
+  margin-top: var(--s2);
 }
 
-.home-nav-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 200px; /* Adds spacing between buttons */
-    margin: 0px;
+.home-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+  margin-top: var(--s4);
+}
+
+.home-timeline {
+  margin-top: var(--s5);
+}
+
+@media (min-width: 768px) {
+  .home-hero {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--s4);
+  }
+
+  .home-portrait {
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+  }
 }

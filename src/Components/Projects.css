@@ -1,13 +1,8 @@
-.projects-container {
-    display: flex;
-    flex-wrap: wrap; /* Allows items to wrap into multiple rows */
-    justify-content: center; /* Centers the items */
-    gap: 100px; /* Adds spacing between project cards */
-    padding: 100px;
+.projects-intro {
+  font-size: 0.95rem;
+  margin-bottom: var(--s4);
 }
 
-/* Ensures that each project card takes an appropriate size */
-.project-card {
-    flex: 1 1 300px; /* Grow, shrink, and set a minimum width of 300px */
-    max-width: 600px; /* Prevents cards from getting too wide */
+.projects-section + .projects-section {
+  margin-top: var(--s5);
 }

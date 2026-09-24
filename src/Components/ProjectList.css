@@ -1,0 +1,35 @@
+.project-list {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.project-row {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: var(--s2);
+  padding-block: 14px;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 72px;
+}
+
+.project-row-year {
+  font-size: 0.8rem;
+  color: var(--muted);
+  padding-top: 3px;
+}
+
+.project-row-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.project-row-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.project-row-line {
+  font-size: 0.9rem;
+}

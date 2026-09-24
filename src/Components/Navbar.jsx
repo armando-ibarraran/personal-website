@@ -1,15 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
+
+const linkClass = ({ isActive }) => (isActive ? 'navbar-link is-active' : 'navbar-link');
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <ul className="navbar-list">
-        <li><Link to="/" className="navbar-link">Home</Link></li>
-        <li><Link to="/projects" className="navbar-link">Projects</Link></li>
-        <li><Link to="/about-me" className="navbar-link">About Me</Link></li>
-      </ul>
+    <nav className="navbar" aria-label="Main">
+      <div className="container navbar-inner">
+        <NavLink to="/" className="navbar-brand" end>
+          Armando Ibarrarán
+        </NavLink>
+        <ul className="navbar-list">
+          <li><NavLink to="/" className={linkClass} end>Home</NavLink></li>
+          <li><NavLink to="/projects" className={linkClass}>Projects</NavLink></li>
+          <li><NavLink to="/about-me" className={linkClass}>About me</NavLink></li>
+        </ul>
+      </div>
     </nav>
   );
 }

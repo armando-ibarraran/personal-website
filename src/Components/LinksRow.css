@@ -1,0 +1,14 @@
+.links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px var(--s2);
+  list-style: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.links-row li + li::before {
+  content: '\00B7';
+  margin-right: var(--s2);
+  color: var(--muted);
+}
