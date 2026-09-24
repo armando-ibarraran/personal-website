@@ -21,23 +21,25 @@
   border-radius: 4px;
 }
 
-.gallery-natural {
+.gallery.gallery-natural {
   grid-template-columns: 1fr;
 }
 
-.gallery-natural .gallery-image {
+.gallery.gallery-natural .gallery-image {
   aspect-ratio: auto;
   object-fit: contain;
   max-width: 560px;
   background: #fff;
 }
 
-.gallery-poster {
-  grid-template-columns: repeat(auto-fill, 140px);
+.gallery.gallery-poster {
+  display: flex;
+  flex-wrap: wrap;
   gap: var(--s2);
 }
 
-.gallery-poster .gallery-image {
+.gallery.gallery-poster .gallery-image {
+  width: 140px;
   aspect-ratio: 2 / 3;
   object-fit: contain;
   background: var(--paper);
