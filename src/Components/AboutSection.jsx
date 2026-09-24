@@ -5,7 +5,7 @@ import './AboutSection.css';
 // images: [{ src, alt }] ; items: optional list of strings shown when there are no images
 function AboutSection({ title, subtitle, images, items, fit }) {
   const pics = (images || []).map((img) => (typeof img === 'string' ? { src: img, alt: title } : img));
-  const galleryClass = fit === 'natural' ? 'gallery gallery-natural' : 'gallery';
+  const galleryClass = fit ? 'gallery gallery-' + fit : 'gallery';
   return (
     <section className="about-section">
       <h2 className="section-label">{title}</h2>

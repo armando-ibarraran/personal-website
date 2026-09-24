@@ -4,15 +4,26 @@
     "title": "Mathematics",
     "subtitle": "My favorite theorem: you can't always underperform.",
     "fit": "natural",
-    "images": [{ "src": "images/theorem1.jpg", "alt": "Statement of the theorem" }]
+    "images": [
+      {
+        "src": "images/theorem1.jpg",
+        "alt": "Statement of the theorem"
+      }
+    ]
   },
   {
     "id": "martial-arts",
     "title": "Martial arts",
     "subtitle": "Boxing, muay thai and Brazilian jiu-jitsu for two years.",
     "images": [
-      { "src": "images/mma1.jpg", "alt": "Sparring session" },
-      { "src": "images/mma2.jpg", "alt": "In the jiu-jitsu gi" }
+      {
+        "src": "images/mma1.jpg",
+        "alt": "Sparring session"
+      },
+      {
+        "src": "images/mma2.jpg",
+        "alt": "In the jiu-jitsu gi"
+      }
     ]
   },
   {
@@ -20,10 +31,22 @@
     "title": "Photography",
     "subtitle": "Some of the pictures I've taken.",
     "images": [
-      { "src": "images/photography1.jpg", "alt": "Figure in breaking surf, black and white" },
-      { "src": "images/photography2.jpg", "alt": "Sunset over a bay" },
-      { "src": "images/photography3.jpg", "alt": "Town plaza at golden hour" },
-      { "src": "images/photography4.jpg", "alt": "Wall shadows, black and white" }
+      {
+        "src": "images/photography1.jpg",
+        "alt": "Figure in breaking surf, black and white"
+      },
+      {
+        "src": "images/photography2.jpg",
+        "alt": "Sunset over a bay"
+      },
+      {
+        "src": "images/photography3.jpg",
+        "alt": "Town plaza at golden hour"
+      },
+      {
+        "src": "images/photography4.jpg",
+        "alt": "Wall shadows, black and white"
+      }
     ]
   },
   {
@@ -31,17 +54,26 @@
     "title": "Movies",
     "subtitle": "Blade Runner 2049, Fight Club, Ya no estoy aquí, Return of the Jedi.",
     "images": [
-      { "src": "images/movies1.jpg", "alt": "Blade Runner 2049 poster" },
-      { "src": "images/movies3.jpg", "alt": "Ya no estoy aquí poster" },
-      { "src": "images/movies4.jpg", "alt": "Return of the Jedi cover" }
+      {
+        "src": "images/movies1.jpg",
+        "alt": "Blade Runner 2049 poster"
+      },
+      {
+        "src": "images/movies3.jpg",
+        "alt": "Ya no estoy aquí poster"
+      },
+      {
+        "src": "images/movies4.jpg",
+        "alt": "Return of the Jedi cover"
+      }
     ],
-    "items": ["Blade Runner 2049", "Fight Club", "Ya no estoy aquí", "Return of the Jedi"]
+    "fit": "poster"
   },
   {
     "id": "series",
     "title": "Series",
     "subtitle": "True Detective, The Simpsons, The Mentalist.",
     "images": [],
-    "items": ["True Detective", "The Simpsons", "The Mentalist"]
+    "fit": "poster"
   }
 ]

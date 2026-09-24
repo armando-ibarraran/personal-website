@@ -32,6 +32,17 @@
   background: #fff;
 }
 
+.gallery-poster {
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  max-width: 640px;
+}
+
+.gallery-poster .gallery-image {
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
+  background: var(--paper);
+}
+
 .about-items {
   list-style: none;
   padding: 0;
