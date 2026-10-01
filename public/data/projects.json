@@ -61,7 +61,9 @@
     ],
     "tags": ["electricity markets", "auctions", "time series", "machine learning", "data pipelines"],
     "links": {},
-    "media": []
+    "media": [
+      { "type": "image", "src": "images/bravos-logo.png", "alt": "Bravos Energía logo" }
+    ]
   },
   {
     "id": "nasa-jpl",
