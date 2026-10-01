@@ -152,5 +152,14 @@
     "subtitle": "Market-anchored Bayesian simulation, rival inference from the leaderboard, and an optimizer for the probability of finishing first.",
     "href": "/projects#quiniela-2026",
     "image": null
+  },
+  {
+    "id": "tl-probability-tournament",
+    "year": "2026",
+    "dateLabel": "Sep 2026",
+    "title": "1st place, QuantLab ITAM Probability Tournament",
+    "subtitle": "16 finalists selected from about 50 applicants; single-elimination, timed probability problems on the board. Judged by statistics faculty, sponsored and supervised by Citadel Securities.",
+    "href": "/projects#probability-tournament-2026",
+    "image": { "src": "images/probability-champion-group.jpg", "alt": "Finalists, judges and the Citadel Securities team with the champion screen" }
   }
 ]

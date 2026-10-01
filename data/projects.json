@@ -1,5 +1,28 @@
 [
   {
+    "id": "probability-tournament-2026",
+    "title": "1st place, QuantLab ITAM Probability Tournament",
+    "year": 2026,
+    "month": 9,
+    "dateLabel": "Sep 2026",
+    "tier": "featured",
+    "context": "QuantLab ITAM, Quant Day 2026. Sponsored and supervised by Citadel Securities.",
+    "pitch": "Won a single-elimination probability tournament: 16 finalists selected from about 50 applicants, one timed problem per match.",
+    "bullets": [
+      "One-on-one matches from the round of 16 to the final, solved on the board with no calculator: 5 minutes per problem in the early rounds, 6 in the semifinals and 10 in the final, with two attempts per match.",
+      "Derivation problems were checked line by line by judges from ITAM's Department of Statistics.",
+      "The winner of each match explained the solution to the audience in 30 seconds.",
+      "Citadel Securities sponsored the event and attended with two traders and two recruiters."
+    ],
+    "tags": ["probability", "mental math", "problem solving", "competition"],
+    "links": {},
+    "media": [
+      { "type": "image", "src": "images/probability-champion-group.jpg", "alt": "Finalists, judges and the Citadel Securities team with the champion screen" },
+      { "type": "image", "src": "images/probability-explaining.jpg", "alt": "Explaining the winning solution in front of the projected podium" },
+      { "type": "image", "src": "images/probability-board.jpg", "alt": "Working on the board while the clock runs" }
+    ]
+  },
+  {
     "id": "quiniela-2026",
     "title": "World Cup 2026 pool: market-anchored Bayesian simulation with a rank objective",
     "year": 2026,
