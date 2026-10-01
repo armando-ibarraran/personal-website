@@ -18,7 +18,8 @@ function Timeline() {
 
   useEffect(() => {
     fetchJson('data/timeline.json')
-      .then(setItems)
+      // timeline.json is stored oldest first; show newest first
+      .then((data) => setItems([...data].reverse()))
       .catch((err) => console.error('Error loading timeline:', err));
   }, []);
 

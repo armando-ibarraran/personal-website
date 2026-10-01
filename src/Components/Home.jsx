@@ -38,7 +38,7 @@ function Home() {
       </nav>
 
       <section className="home-timeline">
-        <h2 className="section-label">2015 to 2026</h2>
+        <h2 className="section-label">2026 back to 2015</h2>
         <Timeline />
       </section>
     </div>
