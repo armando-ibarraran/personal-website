@@ -142,7 +142,7 @@
     "title": "Bravos Energía",
     "subtitle": "Modeling counterparties' bids in ERCOT CRR auctions.",
     "href": "/projects#bravos-energia",
-    "image": null
+    "image": { "src": "images/bravos-logo.png", "alt": "Bravos Energía logo" }
   },
   {
     "id": "tl-quiniela",
