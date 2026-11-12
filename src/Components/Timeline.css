@@ -76,6 +76,7 @@
 
 .timeline-image {
   margin-top: var(--s2);
+  width: 100%;
   max-width: 380px;
   aspect-ratio: 3 / 2;
   object-fit: cover;
