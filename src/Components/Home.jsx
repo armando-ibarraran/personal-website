@@ -20,8 +20,8 @@ function Home() {
           <h1 className="home-name display">Armando Ibarrarán</h1>
           <p className="home-intro">
             Applied Mathematics and Computer Engineering student at ITAM.
-            Currently at Bravos Energía modeling counterparties&rsquo; bids in ERCOT CRR auctions;
-            previously a visiting student researcher at NASA JPL working on state estimation
+            Previously at Bravos Energía modeling counterparties&rsquo; bids in ERCOT CRR auctions,
+            and a visiting student researcher at NASA JPL working on state estimation
             for autonomous spacecraft.
           </p>
           <p className="home-sub muted">
